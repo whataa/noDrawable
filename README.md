@@ -5,6 +5,7 @@ Here is [English Doc](https://github.com/whataa/noDrawable/blob/master/README_EN
 Nodrawable是一个旨在减少99%的drawable.xml文件的库，可直接在布局文件中对任意View声明drawable属性。
 
 方案原理：[一种巧妙的drawable.xml替代方案](http://linjiang.tech/2018/09/08/%E4%B8%80%E7%A7%8D%E5%B7%A7%E5%A6%99%E7%9A%84drawable.xml%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/)
+
 演示Demo：[一种巧妙的drawable.xml替代方案-效果篇](http://linjiang.tech/2018/09/08/%E4%B8%80%E7%A7%8D%E5%B7%A7%E5%A6%99%E7%9A%84drawable.xml%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88-%E6%95%88%E6%9E%9C%E7%AF%87/)
 
 ## 特性
