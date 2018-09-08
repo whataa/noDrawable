@@ -1,4 +1,4 @@
-# NoDrawable
+# NoDrawable [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16) [![platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html) [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/whataa/noDrawable/blob/master/LICENSE) [![Build Status](https://travis-ci.org/whataa/noDrawable.svg?branch=master)](https://travis-ci.org/whataa/noDrawable)
 
 NoDrawable is a library aim to reduce the drawable.xml file by 99%, you can define the drawable attributes on any View directly in the layout file.
 
@@ -30,7 +30,7 @@ allprojects {
     }
 }
 ```
-2. Add the dependency to your app build.gradle (please use the latest version)：
+2. Add the dependency to your app build.gradle [![](https://jitpack.io/v/whataa/noDrawable.svg)](https://jitpack.io/#whataa/noDrawable)
 ```
 dependencies {
     ...

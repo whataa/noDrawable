@@ -1,4 +1,4 @@
-# NoDrawable
+# NoDrawable [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16) [![platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html) [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/whataa/noDrawable/blob/master/LICENSE) [![Build Status](https://travis-ci.org/whataa/noDrawable.svg?branch=master)](https://travis-ci.org/whataa/noDrawable)
 
 NoDrawable是一个旨在减少99%的drawable.xml文件的库，可直接在布局文件中对任意View声明drawable属性。
 
@@ -31,7 +31,7 @@ allprojects {
     }
 }
 ```
-2. 添加依赖到你的app's build.gradle中：
+2. 添加依赖到你的app's build.gradle中 [![](https://jitpack.io/v/whataa/noDrawable.svg)](https://jitpack.io/#whataa/noDrawable)
 ```
 dependencies {
     ...
