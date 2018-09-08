@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_bg"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="32dp"
+            android:paddingLeft="32dp"
+            android:paddingTop="40dp"
+            android:text="注册"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome"
+            app:layout_constraintTop_toBottomOf="@id/register" />
+
+        <TextView
+            android:id="@+id/forget_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="忘记密码?"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            app:layout_constraintBottom_toBottomOf="@id/guide_line"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/guide_line" />
+
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/account"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/shape_edit"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="16dp"
+            android:hint="请输入手机号"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textColorHint="#fff"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@id/password"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:background="@drawable/selector_edit"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="16dp"
+            android:drawableRight="@drawable/eye"
+            android:inputType="textPassword"
+            android:hint="请输入密码"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textColorHint="#fff"
+            android:textColor="#000"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@id/forget_pwd"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guide_line"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <Button
+            android:enabled="false"
+            android:id="@+id/login"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_login"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/forget_pwd" />
+
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guide_line_v"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <TextView
+            android:id="@+id/way_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="19dp"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="第三方登录"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toTopOf="@id/wx_way"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/shape_left_divider"
+            app:layout_constraintBottom_toBottomOf="@id/way_title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/way_title"
+            app:layout_constraintTop_toTopOf="@id/way_title" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/shape_right_divider"
+            app:layout_constraintBottom_toBottomOf="@id/way_title"
+            app:layout_constraintLeft_toRightOf="@id/way_title"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/way_title" />
+
+
+        <ImageView
+            android:id="@+id/wx_way"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="47dp"
+            android:background="@drawable/selector_way_wx"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/weixin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/guide_line_v" />
+
+        <ImageView
+            android:id="@+id/qq_way"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_way_qq"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/qq"
+            app:layout_constraintBottom_toBottomOf="@id/wx_way"
+            app:layout_constraintLeft_toRightOf="@id/guide_line_v"
+            app:layout_constraintRight_toRightOf="parent" />
+    </android.support.constraint.ConstraintLayout>

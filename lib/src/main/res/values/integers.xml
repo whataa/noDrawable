@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--可选，主要是为了可读性-->
+    <!--例如: 可以直接在布局中使用常量@{0}，或者引用以下资源@{@integer/shapeMode_rectangle}-->
+
+    <integer name="shapeMode_rectangle">0</integer>
+    <integer name="shapeMode_oval">1</integer>
+    <integer name="shapeMode_line">2</integer>
+
+    <integer name="gradientType_linear">0</integer>
+    <integer name="gradientType_radial">1</integer>
+    <integer name="gradientType_sweep">2</integer>
+
+    <integer name="orientation_top_bottom">0</integer>
+    <integer name="orientation_tr_bl">1</integer>
+    <integer name="orientation_right_left">2</integer>
+    <integer name="orientation_br_tl">3</integer>
+    <integer name="orientation_bottom_top">4</integer>
+    <integer name="orientation_bl_tr">5</integer>
+    <integer name="orientation_left_right">6</integer>
+    <integer name="orientation_tl_br">7</integer>
+</resources>

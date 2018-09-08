@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+            <EditText
+                drawable_focused_height="@{90}"
+                drawable_focused_marginLeft="@{-2}"
+                drawable_focused_marginRight="@{-2}"
+                drawable_focused_strokeColor="@{0xff00ff00}"
+                drawable_focused_strokeWidth="@{1}"
+                drawable_focused_width="@{50}"
+
+                drawable_height="@{50}"
+                drawable_marginBottom="@{-2}"
+                drawable_marginTop="@{-2}"
+                drawable_pressed_centerColor="@{0x7fffffff}"
+                drawable_pressed_endColor="@{0x00000000}"
+                drawable_pressed_orientation="@{@integer/orientation_left_right}"
+
+                drawable_pressed_shapeMode="@{@integer/shapeMode_oval}"
+                drawable_pressed_solidColor="@{0x7f00ffff}"
+                drawable_pressed_startColor="@{0x00000000}"
+                drawable_strokeColor="@{0xff00ff00}"
+                drawable_strokeWidth="@{1}"
+                drawable_width="@{250}"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="32dp"
+                android:gravity="center"
+                android:hint="该控件用于测试属性，点击试试"
+                android:inputType="phone"
+                android:textColor="#fff"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/open_xml"
+                drawable_pressed_radiusLT="@{30}"
+                drawable_pressed_radiusRB="@{30}"
+                drawable_pressed_solidColor="@{0xffD6D7D7}"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="打开「drawable.xml」方案的Activity"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/open_drawable"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="打开「No_Drawable」方案的Activity"
+                android:textSize="12dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <View
+                    drawable_endColor="@{0x00000000}"
+                    drawable_gradientType="@{@integer/gradientType_linear}"
+                    drawable_radialRadius="@{30}"
+                    drawable_radius="@{30}"
+                    drawable_startColor="@{0xffD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+
+                <View
+                    drawable_endColor="@{0x00000000}"
+                    drawable_gradientType="@{@integer/gradientType_sweep}"
+                    drawable_radius="@{30}"
+                    drawable_startColor="@{0xffD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+
+
+                <View
+                    drawable_endColor="@{0x00000000}"
+                    drawable_gradientType="@{@integer/gradientType_radial}"
+                    drawable_radialRadius="@{30}"
+                    drawable_radius="@{30}"
+                    drawable_startColor="@{0xffD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+
+                <View
+                    drawable_endColor="@{0x00000000}"
+                    drawable_gradientType="@{@integer/gradientType_sweep}"
+                    drawable_ringInnerRadius="@{20}"
+                    drawable_ringThickness="@{8}"
+                    drawable_shapeMode="@{3}"
+                    drawable_startColor="@{0xffD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <View
+                    drawable_marginBottom="@{-2}"
+                    drawable_marginRight="@{-2}"
+                    drawable_marginTop="@{-2}"
+                    drawable_solidColor="@{0x3fD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+
+                <View
+                    drawable_marginBottom="@{-2}"
+                    drawable_marginLeft="@{-2}"
+                    drawable_marginRight="@{-2}"
+                    drawable_solidColor="@{0x3fD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+
+                <View
+                    drawable_marginLeft="@{-2}"
+                    drawable_marginRight="@{-2}"
+                    drawable_marginTop="@{-2}"
+                    drawable_solidColor="@{0x3fD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+
+                <View
+                    drawable_marginBottom="@{-2}"
+                    drawable_marginLeft="@{-2}"
+                    drawable_marginTop="@{-2}"
+                    drawable_solidColor="@{0x3fD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <View
+                    drawable_marginBottom="@{-2}"
+                    drawable_marginTop="@{-2}"
+                    drawable_radiusRB="@{30}"
+                    drawable_radiusRT="@{30}"
+                    drawable_solidColor="@{0x3fD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+
+                <View
+                    drawable_marginBottom="@{30}"
+                    drawable_marginLeft="@{-2}"
+                    drawable_marginRight="@{-2}"
+                    drawable_solidColor="@{0x3fD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+
+                <View
+                    drawable_marginLeft="@{-2}"
+                    drawable_marginRight="@{-2}"
+                    drawable_marginTop="@{30}"
+                    drawable_radius="@{10}"
+                    drawable_solidColor="@{0x3fD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+
+                <View
+                    drawable_radiusLT="@{60}"
+                    drawable_radiusRB="@{60}"
+                    drawable_solidColor="@{0x3fD86157}"
+                    drawable_strokeColor="@{0xffD86157}"
+                    drawable_strokeDash="@{2}"
+                    drawable_strokeDashGap="@{2}"
+                    drawable_strokeWidth="@{1}"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>

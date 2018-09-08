@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        drawable_endColor="@{0xff3e91ee}"
+        drawable_orientation="@{@integer/orientation_bottom_top}"
+        drawable_startColor="@{0xff02144e}"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        tools:background="#626568">
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="32dp"
+            android:paddingLeft="32dp"
+            android:paddingTop="40dp"
+            android:text="注册"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome"
+            app:layout_constraintTop_toBottomOf="@id/register" />
+
+        <TextView
+            android:id="@+id/forget_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="忘记密码?"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            app:layout_constraintBottom_toBottomOf="@id/guide_line"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/guide_line" />
+
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/account"
+            drawable_radius="@{21}"
+            drawable_solidColor="@{0x7fffffff}"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="15dp"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="16dp"
+            android:hint="请输入手机号"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textColorHint="#fff"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@id/password"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <EditText
+            android:id="@+id/password"
+            drawable_focused_strokeColor="@{@color/color_green}"
+            drawable_focused_strokeDash="@{4}"
+            drawable_focused_strokeDashGap="@{4}"
+            drawable_focused_strokeWidth="@{2}"
+            drawable_focused_marginLeft="@{-3}"
+            drawable_focused_marginTop="@{-3}"
+            drawable_focused_marginRight="@{-3}"
+            drawable_radius="@{21}"
+            drawable_solidColor="@{0x7fffffff}"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="16dp"
+            android:drawableRight="@drawable/eye"
+            android:inputType="textPassword"
+            android:hint="请输入密码"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textColorHint="#fff"
+            android:textColor="#000"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@id/forget_pwd"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guide_line"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <Button
+            android:enabled="false"
+            android:id="@+id/login"
+            drawable_radius="@{21}"
+            drawable_solidColor="@{0xff818385}"
+            drawable_enabled_radius="@{21}"
+            drawable_enabled_solidColor="@{0xff59c8d8}"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/forget_pwd" />
+
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guide_line_v"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <TextView
+            android:id="@+id/way_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="19dp"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="第三方登录"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toTopOf="@id/wx_way"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+        <View
+            drawable_endColor="@{0x00000000}"
+            drawable_orientation="@{@integer/orientation_right_left}"
+            drawable_startColor="@{0xffffffff}"
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            app:layout_constraintBottom_toBottomOf="@id/way_title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/way_title"
+            app:layout_constraintTop_toTopOf="@id/way_title" />
+
+        <View
+            drawable_endColor="@{0x00000000}"
+            drawable_orientation="@{@integer/orientation_left_right}"
+            drawable_startColor="@{0xffffffff}"
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            app:layout_constraintBottom_toBottomOf="@id/way_title"
+            app:layout_constraintLeft_toRightOf="@id/way_title"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/way_title" />
+
+
+        <ImageView
+            android:id="@+id/wx_way"
+            drawable_pressed_shapeMode="@{@integer/shapeMode_oval}"
+            drawable_pressed_solidColor="@{0xff54B536}"
+            drawable_shapeMode="@{1}"
+            drawable_solidColor="@{0xffDCDFE8}"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="47dp"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/weixin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/guide_line_v" />
+
+        <ImageView
+            android:id="@+id/qq_way"
+            drawable_pressed_shapeMode="@{1}"
+            drawable_pressed_solidColor="@{0xff65AEE4}"
+            drawable_shapeMode="@{1}"
+            drawable_solidColor="@{0xffDCDFE8}"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/qq"
+            app:layout_constraintBottom_toBottomOf="@id/wx_way"
+            app:layout_constraintLeft_toRightOf="@id/guide_line_v"
+            app:layout_constraintRight_toRightOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</layout>

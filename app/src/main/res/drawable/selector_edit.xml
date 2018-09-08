@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true">
+        <inset android:insetLeft="-3dp" android:insetRight="-3dp" android:insetTop="-3dp">
+            <shape>
+                <stroke android:width="2dp" android:color="@color/color_green" android:dashGap="4dp" android:dashWidth="4dp" />
+            </shape>
+        </inset>
+    </item>
+    <item android:drawable="@drawable/shape_edit">
+
+    </item>
+</selector>
