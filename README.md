@@ -156,6 +156,7 @@ drawable_selected | selected状态下的drawable引用属性 | @{@drawable/shape
 - 本库以在内部将`@{}`中的数值处理为了dp单位，具体可查看`Drawables.create`方法；
 - 本库在values文件中预置了几个可选的integer值用以表示对应的枚举类型，用以提高可读性；
 - 有些属性添加后可能不是你想要的效果，你可以参考该 [链接](https://keeganlee.me/post/android/20150830) 查看用法是否正确（个人觉得该链接的文章写得非常好）；
+- 编译错误出现：cannot find symbol class DataBinderMapperImpl 时，请查看[issues#1](https://github.com/whataa/noDrawable/issues/1)
 
 ## 限制
 

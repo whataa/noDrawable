@@ -150,6 +150,7 @@ drawable_selected | selected state | @{@drawable/shape_button}
 - NoDrawable internally processes the values in `@{}` for dp units, please look the `Drawables.create` method;
 - NoDrawable presets several optional integer values in the values file to indicate the corresponding enumerated types for improved readability.
 - Some attribute may not be what you want after adding them. please see if the usage is correct.
+- When building failed：cannot find symbol class DataBinderMapperImpl ，please check out [issues#1](https://github.com/whataa/noDrawable/issues/1)
 
 ## Limit
 
