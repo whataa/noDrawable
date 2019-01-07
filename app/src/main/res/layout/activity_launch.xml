@@ -37,7 +37,7 @@
                 drawable_pressed_solidColor="@{0x7f00ffff}"
                 drawable_pressed_startColor="@{0x00000000}"
                 drawable_strokeColor="@{0xff00ff00}"
-                drawable_strokeWidth="@{1}"
+                drawable_strokeWidth="@{0.2f}"
                 drawable_width="@{250}"
 
                 android:layout_width="wrap_content"

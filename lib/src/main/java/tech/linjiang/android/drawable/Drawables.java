@@ -257,7 +257,7 @@ public class Drawables {
             @ShapeMode int shapeMode,
             @ColorInt Integer solidColor,
             @ColorInt int strokeColor,
-            Integer strokeWidth,
+            float strokeWidth,
             float strokeDash,
             float strokeDashGap,
             float radius,
@@ -273,21 +273,21 @@ public class Drawables {
             Float radialCenterX,
             Float radialCenterY,
             float radialRadius,
-            Integer width,
-            Integer height,
-            Integer marginLeft,
-            Integer marginTop,
-            Integer marginRight,
-            Integer marginBottom,
-            Integer ringThickness,
-            Float ringThicknessRatio,
-            Integer   ringInnerRadius,
-            Float   ringInnerRadiusRatio,
+            float width,
+            float height,
+            float marginLeft,
+            float marginTop,
+            float marginRight,
+            float marginBottom,
+            float ringThickness,
+            float ringThicknessRatio,
+            float   ringInnerRadius,
+            float   ringInnerRadiusRatio,
 
             @ShapeMode int checked_shapeMode,
             @ColorInt Integer checked_solidColor,
             @ColorInt int checked_strokeColor,
-            Integer checked_strokeWidth,
+            float checked_strokeWidth,
             float checked_strokeDash,
             float checked_strokeDashGap,
             float checked_radius,
@@ -303,21 +303,21 @@ public class Drawables {
             Float checked_radialCenterX,
             Float checked_radialCenterY,
             float checked_radialRadius,
-            Integer checked_width,
-            Integer checked_height,
-            Integer checked_marginLeft,
-            Integer checked_marginTop,
-            Integer checked_marginRight,
-            Integer checked_marginBottom,
-            Integer checked_ringThickness,
-            Float checked_ringThicknessRatio,
-            Integer   checked_ringInnerRadius,
-            Float   checked_ringInnerRadiusRatio,
+            float checked_width,
+            float checked_height,
+            float checked_marginLeft,
+            float checked_marginTop,
+            float checked_marginRight,
+            float checked_marginBottom,
+            float checked_ringThickness,
+            float checked_ringThicknessRatio,
+            float   checked_ringInnerRadius,
+            float   checked_ringInnerRadiusRatio,
 
             @ShapeMode int checkable_shapeMode,
             @ColorInt Integer checkable_solidColor,
             @ColorInt int checkable_strokeColor,
-            Integer checkable_strokeWidth,
+            float checkable_strokeWidth,
             float checkable_strokeDash,
             float checkable_strokeDashGap,
             float checkable_radius,
@@ -333,21 +333,21 @@ public class Drawables {
             Float checkable_radialCenterX,
             Float checkable_radialCenterY,
             float checkable_radialRadius,
-            Integer checkable_width,
-            Integer checkable_height,
-            Integer checkable_marginLeft,
-            Integer checkable_marginTop,
-            Integer checkable_marginRight,
-            Integer checkable_marginBottom,
-            Integer checkable_ringThickness,
-            Float checkable_ringThicknessRatio,
-            Integer   checkable_ringInnerRadius,
-            Float   checkable_ringInnerRadiusRatio,
+            float checkable_width,
+            float checkable_height,
+            float checkable_marginLeft,
+            float checkable_marginTop,
+            float checkable_marginRight,
+            float checkable_marginBottom,
+            float checkable_ringThickness,
+            float checkable_ringThicknessRatio,
+            float   checkable_ringInnerRadius,
+            float   checkable_ringInnerRadiusRatio,
 
             @ShapeMode int enabled_shapeMode,
             @ColorInt Integer enabled_solidColor,
             @ColorInt int enabled_strokeColor,
-            Integer enabled_strokeWidth,
+            float enabled_strokeWidth,
             float enabled_strokeDash,
             float enabled_strokeDashGap,
             float enabled_radius,
@@ -363,21 +363,21 @@ public class Drawables {
             Float enabled_radialCenterX,
             Float enabled_radialCenterY,
             float enabled_radialRadius,
-            Integer enabled_width,
-            Integer enabled_height,
-            Integer enabled_marginLeft,
-            Integer enabled_marginTop,
-            Integer enabled_marginRight,
-            Integer enabled_marginBottom,
-            Integer enabled_ringThickness,
-            Float enabled_ringThicknessRatio,
-            Integer   enabled_ringInnerRadius,
-            Float   enabled_ringInnerRadiusRatio,
+            float enabled_width,
+            float enabled_height,
+            float enabled_marginLeft,
+            float enabled_marginTop,
+            float enabled_marginRight,
+            float enabled_marginBottom,
+            float enabled_ringThickness,
+            float enabled_ringThicknessRatio,
+            float   enabled_ringInnerRadius,
+            float   enabled_ringInnerRadiusRatio,
 
             @ShapeMode int focused_shapeMode,
             @ColorInt Integer focused_solidColor,
             @ColorInt int focused_strokeColor,
-            Integer focused_strokeWidth,
+            float focused_strokeWidth,
             float focused_strokeDash,
             float focused_strokeDashGap,
             float focused_radius,
@@ -393,21 +393,21 @@ public class Drawables {
             Float focused_radialCenterX,
             Float focused_radialCenterY,
             float focused_radialRadius,
-            Integer focused_width,
-            Integer focused_height,
-            Integer focused_marginLeft,
-            Integer focused_marginTop,
-            Integer focused_marginRight,
-            Integer focused_marginBottom,
-            Integer focused_ringThickness,
-            Float focused_ringThicknessRatio,
-            Integer   focused_ringInnerRadius,
-            Float   focused_ringInnerRadiusRatio,
+            float focused_width,
+            float focused_height,
+            float focused_marginLeft,
+            float focused_marginTop,
+            float focused_marginRight,
+            float focused_marginBottom,
+            float focused_ringThickness,
+            float focused_ringThicknessRatio,
+            float   focused_ringInnerRadius,
+            float   focused_ringInnerRadiusRatio,
 
             @ShapeMode int pressed_shapeMode,
             @ColorInt Integer pressed_solidColor,
             @ColorInt int pressed_strokeColor,
-            Integer pressed_strokeWidth,
+            float pressed_strokeWidth,
             float pressed_strokeDash,
             float pressed_strokeDashGap,
             float pressed_radius,
@@ -423,21 +423,21 @@ public class Drawables {
             Float pressed_radialCenterX,
             Float pressed_radialCenterY,
             float pressed_radialRadius,
-            Integer pressed_width,
-            Integer pressed_height,
-            Integer pressed_marginLeft,
-            Integer pressed_marginTop,
-            Integer pressed_marginRight,
-            Integer pressed_marginBottom,
-            Integer pressed_ringThickness,
-            Float pressed_ringThicknessRatio,
-            Integer   pressed_ringInnerRadius,
-            Float   pressed_ringInnerRadiusRatio,
+            float pressed_width,
+            float pressed_height,
+            float pressed_marginLeft,
+            float pressed_marginTop,
+            float pressed_marginRight,
+            float pressed_marginBottom,
+            float pressed_ringThickness,
+            float pressed_ringThicknessRatio,
+            float   pressed_ringInnerRadius,
+            float   pressed_ringInnerRadiusRatio,
 
             @ShapeMode int selected_shapeMode,
             @ColorInt Integer selected_solidColor,
             @ColorInt int selected_strokeColor,
-            Integer selected_strokeWidth,
+            float selected_strokeWidth,
             float selected_strokeDash,
             float selected_strokeDashGap,
             float selected_radius,
@@ -453,16 +453,16 @@ public class Drawables {
             Float selected_radialCenterX,
             Float selected_radialCenterY,
             float selected_radialRadius,
-            Integer selected_width,
-            Integer selected_height,
-            Integer selected_marginLeft,
-            Integer selected_marginTop,
-            Integer selected_marginRight,
-            Integer selected_marginBottom,
-            Integer selected_ringThickness,
-            Float selected_ringThicknessRatio,
-            Integer   selected_ringInnerRadius,
-            Float   selected_ringInnerRadiusRatio,
+            float selected_width,
+            float selected_height,
+            float selected_marginLeft,
+            float selected_marginTop,
+            float selected_marginRight,
+            float selected_marginBottom,
+            float selected_ringThickness,
+            float selected_ringThicknessRatio,
+            float   selected_ringInnerRadius,
+            float   selected_ringInnerRadiusRatio,
 
             Drawable drawable,
             Drawable drawable_checked,
@@ -769,26 +769,26 @@ public class Drawables {
 
     public static Drawable create(
             @ShapeMode int shapeMode, @ColorInt Integer solidColor,
-            @ColorInt int strokeColor, @DP Integer strokeWidth, @DP float strokeDash, @DP float strokeDashGap,
+            @ColorInt int strokeColor, @DP float strokeWidth, @DP float strokeDash, @DP float strokeDashGap,
             @DP float radius, @DP float radiusLT, @DP float radiusLB, @DP float radiusRT, @DP float radiusRB,
             @ColorInt Integer startColor, @ColorInt Integer centerColor, @ColorInt Integer endColor,
             @Orientation int orientation, @GradientType int gradientType,
             Float radialCenterX, Float radialCenterY, float radialRadius,
-            @DP Integer width, @DP Integer height,
-            @DP Integer marginLeft, @DP Integer marginTop, @DP Integer marginRight, @DP Integer marginBottom,
-            @DP Integer ringThickness,
-            @DP Float   ringThicknessRatio,
-            @DP Integer ringInnerRadius,
-            @DP Float   ringInnerRadiusRatio
+            @DP float width, @DP float height,
+            @DP float marginLeft, @DP float marginTop, @DP float marginRight, @DP float marginBottom,
+            @DP float ringThickness,
+            @DP float   ringThicknessRatio,
+            @DP float ringInnerRadius,
+            @DP float   ringInnerRadiusRatio
     ) {
         if (shapeMode == INVALID && solidColor == null && strokeColor == INVALID
-                && strokeWidth == null && strokeDash == INVALID && strokeDashGap == INVALID
+                && strokeWidth == INVALID && strokeDash == INVALID && strokeDashGap == INVALID
                 && radius == INVALID && radiusLT == INVALID && radiusLB == INVALID
                 && radiusRT == INVALID && radiusRB == INVALID && startColor == null
                 && centerColor == null && endColor == null && orientation == INVALID
                 && gradientType == INVALID && radialCenterX == null && radialCenterY == null
-                && radialRadius == INVALID && width == null && height == null
-                && marginLeft == null && marginTop == null && marginRight == null && marginBottom == null
+                && radialRadius == INVALID && width == INVALID && height == INVALID
+                && marginLeft == INVALID && marginTop == INVALID && marginRight == INVALID && marginBottom == INVALID
                 ) {
             // 这里需要判断empty，因为有可能只设置了一个state的drawable，那么其他state的就是empty了
             return null;
@@ -824,7 +824,7 @@ public class Drawables {
             // 由于GradientDrawable中没有ring相关的公开API，所以使用反射，若对性能有要求，请注意。
             setRingValue(drawable, ringThickness, ringThicknessRatio, ringInnerRadius, ringInnerRadiusRatio);
         }
-        if (strokeWidth != null && strokeWidth >= 0) {
+        if (strokeWidth > 0) {
             drawable.setStroke(dip2px(strokeWidth), strokeColor, dip2px(strokeDash), dip2px(strokeDashGap));
         }
         if (radius <= 0) {
@@ -834,16 +834,16 @@ public class Drawables {
         } else {
             drawable.setCornerRadius(dip2px(radius));
         }
-        if (width != null && height != null) {
+        if (width > 0 && height > 0) {
             // https://stackoverflow.com/a/29180660/4698946
             drawable.setSize(dip2px(width), dip2px(height));
         }
-        if (marginLeft != null || marginTop != null || marginRight != null || marginBottom != null) {
+        if (marginLeft != 0 || marginTop != 0 || marginRight != 0 || marginBottom != 0) {
             return new InsetDrawable(drawable,
-                    marginLeft == null ? 0 : dip2px(marginLeft),
-                    marginTop == null ? 0 : dip2px(marginTop),
-                    marginRight == null ? 0 : dip2px(marginRight),
-                    marginBottom == null ? 0 : dip2px(marginBottom));
+                    dip2px(marginLeft),
+                    dip2px(marginTop),
+                    dip2px(marginRight),
+                    dip2px(marginBottom));
         } else {
             return drawable;
         }
@@ -877,8 +877,8 @@ public class Drawables {
     }
 
     private static void setRingValue(GradientDrawable drawable,
-                                     Integer thickness, Float thicknessRatio,
-                                     Integer innerRadius, Float innerRadiusRatio) {
+                                     Float thickness, Float thicknessRatio,
+                                     Float innerRadius, Float innerRadiusRatio) {
         try {
             Field mGradientState = drawable.getClass().getDeclaredField("mGradientState");
             mGradientState.setAccessible(true);

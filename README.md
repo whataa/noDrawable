@@ -1,4 +1,4 @@
-Here is [English Doc](https://github.com/whataa/noDrawable/blob/master/README_EN.md)
+中文 | [English](https://github.com/whataa/noDrawable/blob/master/README_EN.md)
 
 # NoDrawable [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16) [![platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html) [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/whataa/noDrawable/blob/master/LICENSE) [![Build Status](https://travis-ci.org/whataa/noDrawable.svg?branch=master)](https://travis-ci.org/whataa/noDrawable)
 
@@ -153,7 +153,7 @@ drawable_selected | selected状态下的drawable引用属性 | @{@drawable/shape
 - 属性开头没有形如 `android:` 或 `app:` 的限定符；
 - 引入布局时，必须按照DataBinding的方案来引入（即不能用setContentView(xxx)），否则没有效果；
 - 数据绑定必须使用`@{}`的形式，这是DataBinding的约束；
-- 本库以在内部将`@{}`中的数值处理为了dp单位，具体可查看`Drawables.create`方法；
+- `@{}`中所有的数值支持 整型 和 浮点型，在内部统一处理为了dp单位，具体可查看 `Drawables.create` 方法；
 - 本库在values文件中预置了几个可选的integer值用以表示对应的枚举类型，用以提高可读性；
 - 有些属性添加后可能不是你想要的效果，你可以参考该 [链接](https://keeganlee.me/post/android/20150830) 查看用法是否正确（个人觉得该链接的文章写得非常好）；
 - 编译错误出现：cannot find symbol class DataBinderMapperImpl 时，请查看[issues#1](https://github.com/whataa/noDrawable/issues/1)
