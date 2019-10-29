@@ -736,9 +736,6 @@ public class Drawables {
                 if (checkableDrawable != null) {
                     listDrawable.addState(new int[]{android.R.attr.state_checkable}, checkableDrawable);
                 }
-                if (enabledDrawable != null) {
-                    listDrawable.addState(new int[]{android.R.attr.state_enabled}, enabledDrawable);
-                }
                 if (focusedDrawable != null) {
                     listDrawable.addState(new int[]{android.R.attr.state_focused}, focusedDrawable);
                 }
@@ -747,6 +744,9 @@ public class Drawables {
                 }
                 if (selectedDrawable != null) {
                     listDrawable.addState(new int[]{android.R.attr.state_selected}, selectedDrawable);
+                }
+                if (enabledDrawable != null) {
+                    listDrawable.addState(new int[]{android.R.attr.state_enabled}, enabledDrawable);
                 }
                 if (defaultDrawable != null) {
                     listDrawable.addState(new int[]{0}, defaultDrawable);
